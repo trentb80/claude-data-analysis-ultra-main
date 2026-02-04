@@ -1,0 +1,70 @@
+{
+  "observation_timestamp": "2026-02-04T00:00:00Z",
+  "data_directory": "data_storage/",
+  "files_discovered": 8,
+  "total_size_mb": 61.2,
+  "files": [
+    {
+      "filename": "Orders.csv",
+      "size_mb": 15.0,
+      "records": 99442,
+      "key_fields": ["order_id", "customer_id", "order_status", "order_purchase_timestamp", "order_delivered_customer_date"]
+    },
+    {
+      "filename": "Customers.csv",
+      "size_mb": 8.7,
+      "records": 99442,
+      "key_fields": ["customer_id", "customer_unique_id", "customer_city", "customer_state"]
+    },
+    {
+      "filename": "Order Items.csv",
+      "size_mb": 15.0,
+      "records": 200000,
+      "key_fields": ["order_id", "product_id", "seller_id", "price", "freight_value"]
+    },
+    {
+      "filename": "Order Payments.csv",
+      "size_mb": 5.6,
+      "records": 100000,
+      "key_fields": ["order_id", "payment_type", "payment_installments", "payment_value"]
+    },
+    {
+      "filename": "Reviews.csv",
+      "size_mb": 14.0,
+      "records": 104720,
+      "key_fields": ["review_id", "order_id", "review_score", "review_comment_message"]
+    },
+    {
+      "filename": "Products.csv",
+      "size_mb": 2.3,
+      "records": 32952,
+      "key_fields": ["product_id", "product_category_name", "product_weight_g"]
+    },
+    {
+      "filename": "Sellers.csv",
+      "size_mb": 0.17,
+      "records": 3096,
+      "key_fields": ["seller_id", "seller_city", "seller_state"]
+    },
+    {
+      "filename": "Categories.csv",
+      "size_mb": 0.0025,
+      "records": 71,
+      "key_fields": ["product_category_name", "product_category_name_english"]
+    }
+  ],
+  "data_classification": {
+    "domain": "e-commerce",
+    "type": "transactional",
+    "has_temporal_data": true,
+    "has_customer_data": true,
+    "has_product_data": true,
+    "has_review_data": true,
+    "has_geographic_data": true
+  },
+  "data_quality_summary": {
+    "completeness": "high",
+    "estimated_quality_score": 90,
+    "notes": "Well-structured e-commerce dataset with complete order lifecycle data"
+  }
+}
