@@ -1,0 +1,80 @@
+{
+  "matching_timestamp": "2026-02-04T00:00:00Z",
+  "data_domain": "e-commerce",
+  "total_skills_matched": 7,
+  "execution_strategy": "sequential",
+  "matched_skills": [
+    {
+      "skill_name": "data-exploration-visualization",
+      "priority": 1,
+      "reason": "Foundation analysis - always executed first",
+      "requirements_met": true,
+      "estimated_duration_minutes": 3
+    },
+    {
+      "skill_name": "rfm-customer-segmentation",
+      "priority": 2,
+      "reason": "E-commerce data with orders and customers available",
+      "requirements_met": true,
+      "estimated_duration_minutes": 5
+    },
+    {
+      "skill_name": "ltv-predictor",
+      "priority": 3,
+      "reason": "Customer lifetime value prediction for e-commerce",
+      "requirements_met": true,
+      "estimated_duration_minutes": 5
+    },
+    {
+      "skill_name": "retention-analysis",
+      "priority": 4,
+      "reason": "Temporal order data available for cohort analysis",
+      "requirements_met": true,
+      "estimated_duration_minutes": 4
+    },
+    {
+      "skill_name": "funnel-analysis",
+      "priority": 5,
+      "reason": "Order status data available for conversion funnel",
+      "requirements_met": true,
+      "estimated_duration_minutes": 4
+    },
+    {
+      "skill_name": "growth-model-analyzer",
+      "priority": 6,
+      "reason": "Time series data available for growth analysis",
+      "requirements_met": true,
+      "estimated_duration_minutes": 4
+    },
+    {
+      "skill_name": "content-analysis",
+      "priority": 7,
+      "reason": "Review text data available for sentiment analysis",
+      "requirements_met": true,
+      "estimated_duration_minutes": 5
+    }
+  ],
+  "skills_not_matched": [
+    {
+      "skill_name": "attribution-analysis-modeling",
+      "reason": "No marketing channel/attribution data available"
+    },
+    {
+      "skill_name": "ab-testing-analyzer",
+      "reason": "No A/B test group data available"
+    },
+    {
+      "skill_name": "user-profiling-analysis",
+      "reason": "More suitable for user behavior/clickstream data"
+    },
+    {
+      "skill_name": "recommender-system",
+      "reason": "Will be covered by other analyses"
+    },
+    {
+      "skill_name": "regression-analysis-modeling",
+      "reason": "Will be covered by LTV and other predictive analyses"
+    }
+  ],
+  "total_estimated_duration_minutes": 30
+}

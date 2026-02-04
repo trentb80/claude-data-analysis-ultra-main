@@ -1,47 +1,37 @@
 {
-  "timestamp": "2025-12-24T09:56:41.591805",
+  "analysis_date": "2018-08-29",
   "total_customers": 96478,
+  "total_orders": 96478,
+  "total_revenue": 15419773.75,
+  "avg_customer_value": 159.82683876116835,
+  "median_customer_value": 105.28,
+  "avg_order_frequency": 1.0,
+  "avg_recency_days": 239.12186197889673,
+  "vip_customers": 4824,
+  "vip_revenue": 4121246.39,
+  "vip_revenue_percentage": 26.72702243766709,
   "segments": {
-    "Potential_Customers": {
-      "count": 32997,
-      "avg_monetary": 121.78576325120466,
-      "total_revenue": 4018564.83,
-      "avg_recency": 279.9227202472952,
-      "avg_frequency": 1.0
-    },
-    "Regular_Customers": {
-      "count": 13653,
-      "avg_monetary": 65.5872225884421,
-      "total_revenue": 895462.3500000001,
-      "avg_recency": 363.22683659269023,
-      "avg_frequency": 1.0
-    },
-    "Loyal_Customers": {
-      "count": 32974,
-      "avg_monetary": 188.69745011220962,
-      "total_revenue": 6222109.72,
-      "avg_recency": 197.57966882998727,
-      "avg_frequency": 1.0
-    },
-    "At_Risk_Customers": {
-      "count": 1551,
-      "avg_monetary": 42.81148291424886,
-      "total_revenue": 66400.60999999999,
-      "avg_recency": 455.5744680851064,
-      "avg_frequency": 1.0
-    },
-    "VIP_Clients": {
-      "count": 15303,
-      "avg_monetary": 275.5823198065739,
-      "total_revenue": 4217236.24,
-      "avg_recency": 114.30066000130694,
-      "avg_frequency": 1.0
-    }
+    "Loyal": 32225,
+    "New Customers": 15606,
+    "Potential Loyalist": 11542,
+    "Hibernating": 7801,
+    "Need Attention": 6958,
+    "Champions": 6366,
+    "At Risk": 4621,
+    "Promising": 4541,
+    "Can't Lose": 4409,
+    "Lost": 2409
   },
-  "key_metrics": {
-    "total_revenue": 15419773.75,
-    "avg_customer_value": 159.82683876116835,
-    "avg_frequency": 1.0,
-    "avg_recency": 240.12186197889673
+  "segment_revenue": {
+    "Loyal": 4296506.02,
+    "New Customers": 2523529.72,
+    "Champions": 1875855.53,
+    "Potential Loyalist": 1869667.98,
+    "Can't Lose": 1318344.01,
+    "Need Attention": 1246233.57,
+    "Promising": 972083.43,
+    "At Risk": 668320.74,
+    "Hibernating": 531681.19,
+    "Lost": 117551.56
   }
 }

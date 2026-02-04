@@ -1,0 +1,31 @@
+{
+  "analysis_date": "2018-10-17",
+  "total_unique_customers": 96096,
+  "one_time_customers": 93099,
+  "repeat_customers": 2997,
+  "repeat_purchase_rate": 3.12,
+  "churn_rate": 70.88,
+  "avg_customer_lifespan_days": 2.71,
+  "median_customer_lifespan_days": 0.0,
+  "avg_days_since_last_purchase": 287.74,
+  "avg_orders_per_customer": 1.03,
+  "avg_revenue_per_customer": 164.87,
+  "cohort_count": 25,
+  "date_range_start": "2016-09-04",
+  "date_range_end": "2018-10-17",
+  "segment_distribution": {
+    "Loyal": 39097,
+    "At Risk": 32861,
+    "Champions": 16008,
+    "Lost": 8130
+  },
+  "dormancy_distribution": {
+    "0-30 days": 7,
+    "31-60 days": 1665,
+    "61-90 days": 7990,
+    "91-180 days": 18317,
+    "181-365 days": 39753,
+    "366-730 days": 28047,
+    "730+ days": 315
+  }
+}
