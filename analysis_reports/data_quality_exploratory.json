@@ -1,0 +1,94 @@
+{
+  "dataset": "Customers.csv",
+  "total_rows": 2000,
+  "total_columns": 8,
+  "missing_values": {
+    "CustomerID": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Gender": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Age": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Annual Income ($)": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Spending Score (1-100)": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Profession": {
+      "count": 35,
+      "percentage": 1.75
+    },
+    "Work Experience": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "Family Size": {
+      "count": 0,
+      "percentage": 0.0
+    }
+  },
+  "total_missing": 35,
+  "duplicate_rows": 0,
+  "duplicate_ids": 0,
+  "completeness_score": 99.78,
+  "uniqueness_score": 100.0,
+  "validity_score": 100.0,
+  "overall_quality_score": 99.93,
+  "outlier_counts": {
+    "Age": 0,
+    "Annual Income ($)": 0,
+    "Spending Score (1-100)": 0,
+    "Work Experience": 5,
+    "Family Size": 0
+  },
+  "value_ranges": {
+    "Age": {
+      "min": 0.0,
+      "max": 99.0,
+      "mean": 48.96
+    },
+    "Annual Income ($)": {
+      "min": 0.0,
+      "max": 189974.0,
+      "mean": 110731.82
+    },
+    "Spending Score (1-100)": {
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 50.96
+    },
+    "Work Experience": {
+      "min": 0.0,
+      "max": 17.0,
+      "mean": 4.1
+    },
+    "Family Size": {
+      "min": 1.0,
+      "max": 9.0,
+      "mean": 3.77
+    }
+  },
+  "data_types": {
+    "CustomerID": "int64",
+    "Gender": "str",
+    "Age": "int64",
+    "Annual Income ($)": "int64",
+    "Spending Score (1-100)": "int64",
+    "Profession": "str",
+    "Work Experience": "int64",
+    "Family Size": "int64"
+  },
+  "categorical_unique_values": {
+    "Gender": 2,
+    "Profession": 9
+  }
+}
